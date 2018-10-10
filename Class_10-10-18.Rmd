@@ -1,0 +1,15 @@
+---
+title: "Class_10-10-18"
+author: "Noah Reimers"
+date: "October 10, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+x <- read_csv("class_enrollment_summary_by_term_10.10.18.csv", skip = 3)
+```
+
+
